@@ -22,8 +22,8 @@
 appname="DeviceRename"
 logandmetadir="/Library/Logs/Microsoft/IntuneScripts/$appname"
 log="$logandmetadir/$appname.log"
-CorporatePrefix="CO"
-PersonalPrefix="BYO"
+CorporatePrefix="SFF"
+PersonalPrefix="SFF-BYO"
 ABMOnly="false"
 EnforceBYOD="false"
 
