@@ -59,7 +59,7 @@ appname="Google Chrome"                                                      # T
 app="Google Chrome.app"                                                      # The actual name of our App once installed
 logandmetadir="/Library/Logs/Microsoft/IntuneScripts/install$appname"   # The location of our logs and last updated data
 appdir="/Applications"                                                  # The location directory for the application (usually /Applications)
-processpath="$appdir/$app/Contents/MacOS/Google\ Chrome"                      # The process name of the App we are installing
+processpath="$appdir/$app/Contents/MacOS/Google Chrome"                      # The process name of the App we are installing
 terminateprocess="false"                                                # Do we want to terminate the running process? If false we'll wait until its not running
 autoUpdate="false"                                                      # Application updates itself, if already installed we should exit
 
